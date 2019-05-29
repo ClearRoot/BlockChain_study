@@ -44,8 +44,8 @@ def test_set_token(self):
     access_token = self.coinone_machine.set_token(grant_type="refresh_token")
     assert access_token
     
-
-
+# https://docs.python.org/3/library/inspect.html
+# https://wikidocs.net/12065
 
 # exec '$SHELL'
 # echo export 'token="<token>"' >> ~/.bashrc
