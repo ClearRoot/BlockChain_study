@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    {% for data in coins %}
+        <h3>{{data.name}}</h3>
+        <p>체크 : {{data.check_price}}</p>
+        <p>맥스 : {{data.max_price}}</p>
+        <p>컴플리트 : {{data.complete_price}}</p>
+        <hr>
+    {% endfor %}
+{% endblock %}

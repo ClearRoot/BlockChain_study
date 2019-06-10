@@ -17,16 +17,8 @@
 ### 2. 개발환경
 
 - Python Web Framework
-
   - Django 2.1.8
   - Python 3.6.7
-
-  
-
-- 서비스 배포 환경
-
-  - Heroku
-
 
 
 - 사용 라이브러리
@@ -49,6 +41,8 @@
   pip install django==2.1.8
   
   pip install django-bootstrap4
+  
+  pip install pybithumb
   ```
 
 
@@ -57,20 +51,25 @@
 
 - 데이터베이스 모델링
 
-  - 
+  - Coin
+    - name
+    - check_price
+    - complete_price
+    - max_price
+    - today_result
+    - result_date
 
-  
 
 - 핵심 기능
 
   - 거래소 데이터 파싱
-  - 
+  - 자동 거래(알고리즘에 의거함)
 
 
 
 ### 4. 참고 문헌
 
-- [**혼자서 만드는 가상화폐 자동거래 시스템**](https://wikidocs.net/book/1436)
+- [**누구나 할 수 있다. 비트코인 자동매매**](https://wikidocs.net/21887)
 
 
 - [**학습 계획서 및 학습 정리**](https://drive.google.com/file/d/1FFHVmQEkoFWH0tfB-ovqep12Nrh-L3vm/view?usp=sharing)
